@@ -25,6 +25,8 @@ while winning:
     user_input = input("Who has more followers type 'A' or 'B' : ")
 
 
+    os.system('cls' if os.name == 'nt' else 'clear')
+    print(art.logo)
 
     if(element_a['follower_count'] > element_b['follower_count']):
         if(user_input == 'A'):
@@ -41,7 +43,6 @@ while winning:
         else:
             print("Sorry that's wrong. Final score : " + str(score))
             winning = False
-    #os.system('cls' if os.name == 'nt' else 'clear')
 
 
 
