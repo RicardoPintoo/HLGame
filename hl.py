@@ -24,7 +24,7 @@ while winning:
     if(random_element_a['follower_count'] > random_element_b['follower_count']):
         if(user_input == 'A'):
             score +=1
-            print("You're right ! Current score : " + str(score))
+            print("You're right !  Current score : " + str(score))
         else:
             print("Sorry that's wrong. Final score : " + str(score))
             winning = False
